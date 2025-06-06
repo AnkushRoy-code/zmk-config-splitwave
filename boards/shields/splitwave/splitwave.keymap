@@ -15,10 +15,10 @@
                 default_layer {
                         display-name = "Base";
 // -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
-// | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+// |  TAB |  Q  |  W  |  F  |  P  |  B  |                 |  J  |  L   |  U  |  Y  |  ;  | BSPC |
+// | CTRL |  A  |  R  |  S  |  T  |  G  |                 |  M  |  N   |  E  |  I  |  O  |  '   |
+// | SHFT |  X  |  C  |  D  |  V  |  Z  |                 |  N  |  M   |  ,  |  .  |  /  | ESC  |
+//        | ESC | META | NUM_LAYER | FN_LAYER |     | SHFT | NUM_LAYER | SPACE | META |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B         &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
    &kp LCTRL &kp A &kp R &kp S &kp T &kp G         &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
@@ -32,10 +32,10 @@
                 num_layer {
                         display-name = "Number Layer";
 // -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+// |     |  ~  |     |     |     |     |                  |     |  -  |  =  |  [  |  ]  |  \  |
+// |     |  1  |  2  |  3  |  4  |  5  |                  |  6  |  7  |  8  |  9  |  0  |     |
+// |     |     |     |     |     |     |                  |     |     |     |     |     |     |
+//             |     |     |     |     |                  |     |     |     |     |
                         bindings = <
    &trans &kp TILDE &trans &trans &trans &trans    &trans &kp MINUS  &kp EQUAL &kp LBKT &kp RBKT &kp NUBS
    &trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5         &kp N6 &kp N7  &kp N8     &kp N9   &kp N0    &kp APOS
@@ -50,10 +50,10 @@
                 fn_layer {
                         display-name = "Function Layer";
 // -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+// |     |     |      | INS  | PRNT |     |                  |      |      |      |       |     |     |
+// |     |     | HOME | PGUP | PGDN | END |                  | LEFT | DOWN |  UP  | RIGHT |     |     |
+// |     |     |      |      |      |     |                  |      |      | LALT | RALT  |     |     |
+//             |      |      |      |     |                  |      |      |      |       |
                         bindings = <
    &trans &trans &trans &kp INS &kp PSCRN &trans               &trans &kp DEL &kp ESC &kp BSPC &trans &trans
    &trans &trans &kp HOME &kp PG_UP &kp PG_DN &kp END          &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
