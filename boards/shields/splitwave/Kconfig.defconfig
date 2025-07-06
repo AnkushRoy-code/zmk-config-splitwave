@@ -14,7 +14,7 @@ if SHIELD_SPLITWAVE_LEFT || SHIELD_SPLITWAVE_RIGHT
 config ZMK_SPLIT
     default y
 
-config ZMK_USB
-    default y
+# config ZMK_USB
+#     default y
 
 endif
