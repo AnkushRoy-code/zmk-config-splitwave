@@ -9,9 +9,12 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_MY_KEYBOARD_LEFT || SHIELD_MY_KEYBOARD_RIGHT
+if SHIELD_SPLITWAVE_LEFT || SHIELD_SPLITWAVE_RIGHT
 
 config ZMK_SPLIT
     default y
+
+# config ZMK_USB
+#     default y
 
 endif
