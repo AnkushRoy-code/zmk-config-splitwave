@@ -58,7 +58,7 @@
                         bindings = <
    &trans   &out OUT_USB   &out OUT_BLE     &kp INS     &kp PSCRN   &trans               &trans     &kp DEL    &kp ESC    &kp BSPC    &trans   &trans
    &trans   &trans         &kp HOME         &kp PG_UP   &kp PG_DN   &kp END              &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &trans   &trans
-   &trans   &trans         &trans           &trans      &trans      &trans               &trans     &trans     &kp LALT   &kp RALT    &trans   &trans
+   &trans   &bt BT_CLR     &bt BT_NXT       &bt BT_PRV  &trans      &trans               &trans     &trans     &kp LALT   &kp RALT    &trans   &trans
                            &trans &trans &trans &trans                                            &bt BT_CLR &bt BT_NXT &bt BT_PRV &trans
                         >;
                 };
