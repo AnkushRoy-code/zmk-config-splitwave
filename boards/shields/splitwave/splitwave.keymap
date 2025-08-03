@@ -24,7 +24,22 @@
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T         &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LSHFT &kp A &kp S &kp D &kp F &kp G         &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LCTRL &kp Z &kp X &kp C &kp V &kp B         &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp MINUS
-         &kp RMETA &kp RET &mo 1 &kp LCTRL         &kp RSHFT &mo 2 &kp SPACE  &kp RMETA
+         &kp RMETA &kp RET &mo 2 &kp LCTRL         &kp RSHFT &mo 3 &kp SPACE  &kp RMETA
+                        >;
+                };
+
+                colemak_mod_dh {
+                        display-name = "Colemak Mod DH Layout";
+// -----------------------------------------------------------------------------------------
+// |  TAB |  Q  |  W  |  F  |  P  |  B  |                 |  J  |  L   |  U  |  Y  |  ;  | BSPC |
+// | SHFT |  A  |  R  |  S  |  T  |  G  |                 |  M  |  N   |  E  |  I  |  O  |  '   |
+// | CTRL |  X  |  C  |  D  |  V  |  Z  |                 |  K  |  H   |  ,  |  .  |  /  |  -   |
+//       | META | RET | NUM_LAYER | CTRL |     | SHFT | NUM_LAYER | SPACE | META |
+                        bindings = <
+   &kp TAB   &kp Q &kp W &kp F &kp P &kp B         &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
+   &kp LSHFT &kp A &kp R &kp S &kp T &kp G         &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
+   &kp LCTRL &kp X &kp C &kp D &kp V &kp Z         &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp MINUS
+            &tog 1 &kp RET &mo 2 &kp LCTRL         &kp RSHFT &mo 3 &kp SPACE  &kp RMETA
                         >;
                 };
 
@@ -58,23 +73,8 @@
                         bindings = <
    &trans   &out OUT_USB &out OUT_BLE   &kp INS   &kp PSCRN   &bt BT_CLR           &trans     &kp DEL    &kp ESC    &kp BSPC    &trans   &trans
    &trans   &trans       &kp HOME       &kp PG_UP &kp PG_DN   &bt BT_NXT           &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &trans   &trans
-   &trans   &trans       &tog 3         &trans    &kp END     &bt BT_PRV           &trans     &trans     &kp LALT   &kp RALT    &trans   &trans
+   &trans   &trans       &tog 1         &trans    &kp END     &bt BT_PRV           &trans     &trans     &kp LALT   &kp RALT    &trans   &trans
                          &trans         &trans    &trans      &trans               &trans     &trans     &trans     &trans
-                        >;
-                };
-
-                colemak_mod_dh {
-                        display-name = "Colemak Mod DH Layout";
-// -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  F  |  P  |  B  |                 |  J  |  L   |  U  |  Y  |  ;  | BSPC |
-// | SHFT |  A  |  R  |  S  |  T  |  G  |                 |  M  |  N   |  E  |  I  |  O  |  '   |
-// | CTRL |  X  |  C  |  D  |  V  |  Z  |                 |  K  |  H   |  ,  |  .  |  /  |  -   |
-//       | META | RET | NUM_LAYER | CTRL |     | SHFT | NUM_LAYER | SPACE | META |
-                        bindings = <
-   &kp TAB   &kp Q &kp W &kp F &kp P &kp B         &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
-   &kp LSHFT &kp A &kp R &kp S &kp T &kp G         &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
-   &kp LCTRL &kp X &kp C &kp D &kp V &kp Z         &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp MINUS
-            &tog 3 &kp RET &mo 1 &kp LCTRL         &kp RSHFT &mo 2 &kp SPACE  &kp RMETA
                         >;
                 };
 
