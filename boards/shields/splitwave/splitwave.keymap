@@ -29,7 +29,7 @@
                 };
 
                 colemak_mod_dh {
-                        display-name = "Colemak Mod DH Layout";
+                        display-name = "Colemak Mod DH";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  F  |  P  |  B  |                 |  J  |  L   |  U  |  Y  |  ;  | BSPC |
 // | SHFT |  A  |  R  |  S  |  T  |  G  |                 |  M  |  N   |  E  |  I  |  O  |  '   |
@@ -39,7 +39,7 @@
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B         &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
    &kp LSHFT &kp A &kp R &kp S &kp T &kp G         &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
    &kp LCTRL &kp X &kp C &kp D &kp V &kp Z         &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp MINUS
-            &tog 1 &kp RET &mo 2 &kp LCTRL         &kp RSHFT &mo 3 &kp SPACE  &kp RMETA
+            &kp RMETA &kp RET &mo 2 &kp LCTRL         &kp RSHFT &mo 3 &kp SPACE  &kp RMETA
                         >;
                 };
 
